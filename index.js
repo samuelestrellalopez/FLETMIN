@@ -1,10 +1,10 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const userController = require('./controllers/usercontroller.js');
 const driverController = require('./controllers/driverController')
 const fleteController = require('./controllers/fleteController')
-const pagoController = require('./controllers/pagoController.js');
+const pagoController = require('./controllers/pagoController.js')
+const userController = require('./controllers/usercontroller.js');
 
 
 

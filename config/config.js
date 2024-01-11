@@ -21,9 +21,9 @@ const firebaseConfig = {
 }
 
 const db = firebase.firestore();
-const User = db.collection("Users");
 const Driver = db.collection("Drivers");  
 const Flete = db.collection("Fletes");
+const User = db.collection("Users");
 
 const storage = firebase.storage();
 
